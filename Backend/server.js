@@ -31,7 +31,7 @@ app.use('/api/jobs', require('./routes/jobRoutes'));
 app.use('/api/applications', require('./routes/applicationRoutes'));
 
 app.get('/', (req, res) => {
-    res.send('JobChaahiye Backend Running');
+    res.send('Job Chaahiye Backend Running  — Developed by Manya Shukla');
 });
 
 // Basic health check
