@@ -823,14 +823,12 @@ const Home = () => {
                 </div>
 
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 pt-8 border-t border-gray-700 flex flex-col md:flex-row justify-between items-center gap-4 text-gray-400 text-xs mb-4">
-                    <p>© 2025 Job Chaahiye | All rights r — Developed by Manya Shukla</p>
+                    <p>© 2025 Job Chaahiye | All rights reserved — Developed by Manya Shukla</p>
                     <div className="flex gap-6">
                         <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
                         <a href="#" className="hover:text-white transition-colors">Terms & Conditions</a>
                     </div>
                 </div>
-
-                {/* Tricolor Strip */}
                 <div className="w-full h-2 flex">
                     <div className="w-1/3 bg-[#FF9933]"></div>
                     <div className="w-1/3 bg-white"></div>
