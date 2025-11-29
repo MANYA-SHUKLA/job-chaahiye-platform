@@ -658,7 +658,7 @@ const LoginEmployer = () => {
                 </div>
             </div>
 
-            {/* Footer */}
+     
             <footer className="bg-[#301f33] text-white py-16">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-12 scroll-animate" style={{ opacity: 0 }}>
                     <div>
@@ -691,7 +691,6 @@ const LoginEmployer = () => {
                 </div>
             </footer>
 
-            {/* Bottom Footer */}
             <div className="bg-white border-t border-gray-100">
                 <div className="px-4 sm:px-6 lg:px-32 flex flex-col md:flex-row items-center justify-between gap-8">
                     <div className="flex flex-col items-start gap-6">
@@ -708,7 +707,7 @@ const LoginEmployer = () => {
                             </div>
                         </div>
                         </div>
-                        <p className="text-gray-500 text-sm">© 2025 Job chaahiye All Right R — Developed by Manya Shukla</p>
+                        <p className="text-gray-500 text-sm">© 2025 Job chaahiye All Right Reserved — Developed by Manya Shukla</p>
                     </div>
                     <div>
                         <img src="https://employer.jobchaahiye.com/images/footerbanner.png" alt="Footer Banner" className="h-48 object-contain" />
