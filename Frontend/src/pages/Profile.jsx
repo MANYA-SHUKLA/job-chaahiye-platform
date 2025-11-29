@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import Navbar from '../components/Navbar'; // Assuming there is a generic Navbar or I can reuse parts
+import Navbar from '../components/Navbar'; 
 import { API_BASE_URL } from '../config/config';
 import { User, Briefcase, MapPin, FileText, Globe, Building } from 'lucide-react';
 
