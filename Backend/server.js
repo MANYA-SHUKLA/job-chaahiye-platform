@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5001;
 
 // Middleware
 app.use(cors({
-    origin: ['http://localhost:5173', 'https://srija-job-chaahiye.netlify.app'],
+    origin: ['http://localhost:5173', 'https://job-chaahiye-platform.vercel.app/'],
     methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true
