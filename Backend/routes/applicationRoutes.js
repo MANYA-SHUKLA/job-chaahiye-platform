@@ -3,8 +3,6 @@ const router = express.Router();
 const auth = require('../middleware/auth');
 const Application = require('../models/Application');
 const Job = require('../models/Job');
-
-// Apply to a Job (Employee)
 router.post('/:jobId', auth, async (req, res) => {
     try {
         if (req.user.type !== 'employee') {
@@ -32,7 +30,6 @@ router.post('/:jobId', auth, async (req, res) => {
     }
 });
 
-// Check if user has applied to a job
 router.get('/check/:jobId', auth, async (req, res) => {
     try {
         if (req.user.type !== 'employee') {
@@ -51,7 +48,7 @@ router.get('/check/:jobId', auth, async (req, res) => {
     }
 });
 
-// Get My Applications (Employee)
+
 router.get('/employee/me', auth, async (req, res) => {
     try {
         if (req.user.type !== 'employee') {
@@ -70,7 +67,7 @@ router.get('/employee/me', auth, async (req, res) => {
     }
 });
 
-// Get Applications for a Job (Employer)
+
 router.get('/job/:jobId', auth, async (req, res) => {
     try {
         if (req.user.type !== 'employer') {
@@ -94,7 +91,7 @@ router.get('/job/:jobId', auth, async (req, res) => {
     }
 });
 
-// Update Application Status (Employer)
+
 router.put('/:id/status', auth, async (req, res) => {
     try {
         if (req.user.type !== 'employer') {
