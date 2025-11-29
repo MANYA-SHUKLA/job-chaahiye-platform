@@ -708,7 +708,7 @@ const LoginEmployer = () => {
                             </div>
                         </div>
                         </div>
-                        <p className="text-gray-500 text-sm">© 2025 Job chaahiye All Right Reserved</p>
+                        <p className="text-gray-500 text-sm">© 2025 Job chaahiye All Right R — Developed by Manya Shukla</p>
                     </div>
                     <div>
                         <img src="https://employer.jobchaahiye.com/images/footerbanner.png" alt="Footer Banner" className="h-48 object-contain" />
