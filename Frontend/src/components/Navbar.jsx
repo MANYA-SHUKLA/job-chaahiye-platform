@@ -5,7 +5,7 @@ import { Menu, X, User, Briefcase, ChevronDown } from 'lucide-react';
 const Navbar = () => {
     const [isOpen, setIsOpen] = React.useState(false);
     const navigate = useNavigate();
-    const userType = localStorage.getItem('userType'); // 'employee' or 'employer'
+    const userType = localStorage.getItem('userType'); 
     const token = localStorage.getItem('token');
 
     const handleLogout = () => {
