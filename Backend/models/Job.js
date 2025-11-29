@@ -16,5 +16,4 @@ const jobSchema = new mongoose.Schema({
     postedAt: { type: Date, default: Date.now },
     status: { type: String, enum: ['active', 'closed'], default: 'active' }
 });
-
 module.exports = mongoose.model('Job', jobSchema);
