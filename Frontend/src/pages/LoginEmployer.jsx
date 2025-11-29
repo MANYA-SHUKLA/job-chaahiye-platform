@@ -9,7 +9,7 @@ import { useToast } from '../context/ToastContext';
 const LoginEmployer = () => {
     const [phoneNumber, setPhoneNumber] = useState('');
     const [otp, setOtp] = useState('');
-    const [step, setStep] = useState(1); // 1: Phone, 2: OTP
+    const [step, setStep] = useState(1); 
     const navigate = useNavigate();
     const [currentTestimonialPage, setCurrentTestimonialPage] = useState(0);
     const [showLoginBtn, setShowLoginBtn] = useState(false);
